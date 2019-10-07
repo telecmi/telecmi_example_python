@@ -1,10 +1,7 @@
 TeleCMI Webhooks Python 
 ======
 
-Python TeleCMI `Webhooks`_. 
-
-.. _Webhooks: https://doc.telecmi.com/chub/docs/webhooks-overview
-
+TeleCMI Webhooks python example
 
 Install
 -------
