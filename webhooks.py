@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 
 # Receive webhooks from TeleCMI platform when call receive or make
-@app.route("/you-have-call",methods=['POST'])
+@app.route("/webhook/cdr",methods=['POST'])
 def hello():
     # Received JSON CDR from TeleCMI Platform
     cdr = request.get_json()
