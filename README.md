@@ -1,3 +1,5 @@
+# TeleCMI Webhook Python
+
 TeleCMI webhooks implementation in python. Use our simple python web server to test your webhooks and live events locally for development purpose.
 
 ## Install
@@ -66,7 +68,7 @@ Now you can get your dynamic URL from the above output. To configure webhooks an
 
 #### Sample URL with path
 ```
-http://c654b286.ngrok.io/you-have-call
+http://c654b286.ngrok.io/webhook/cdr
 ```
 
 
