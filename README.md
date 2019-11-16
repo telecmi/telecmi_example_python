@@ -20,15 +20,19 @@ Prerequisites for python web server.
 Use command __git clone__ to clone the python webserver from our <a href="https://github.com/telecmi/telecmi_example_python" target="_blank">TeleCMI github repository</a>.
 
 ```bash
-$ git clone https://github.com/telecmi/telecmi_example_python.git
-$ cd telecmi_example_python
+git clone https://github.com/telecmi/telecmi_example_python.git
+```
+
+Change the directory to your project directory
+```bash
+cd telecmi_example_python
 ```
 ### Install flask package using pip
 
 Use command __pip__ to install the flask(lightweight web application framework).
 
 ```bash
-$ pip install flask # shows the tagged versions
+pip install flask # shows the tagged versions
 ```
 
 
@@ -37,14 +41,14 @@ $ pip install flask # shows the tagged versions
 Run your python server using the below command
 
 ```bash
-$ python webhooks.py
+python webhooks.py
 ```
 Now you can able to test our webhooks and live events, from your local server. To expose your local web server to the internet use ngrok. 
 
 You can create a secure HTTP tunnel by providing the port number on which your web server is running. For example, your web server is running on port number 5000. you can launch your HTTP tunnel with the following command line.
 
 ```bash
-$ ./ngrok http 5000
+./ngrok http 5000
 ```
 
 After exposing your local webserver to the internet using ngrok you will get the following output.
@@ -64,7 +68,7 @@ Forwarding                    https://c654b286.ngrok.io -> http://localhost:5000
 Connections                   ttl     opn     rt1     rt5     p50     p90       
                               0       0       0.00    0.00    0.00    0.00  
 ```
-Now you can get your dynamic URL from the above output. To configure webhooks and live events, paste your dynamic URL with correct path in webhooks section.
+Now you can get your dynamic URL from the above output. To configure webhooks and live events, paste your dynamic URL with correct path in <a href="https://doc.telecmi.com/chub/docs/incoming-webhooks#where-to-place-your-web-server-url-" target="_blank">webhooks section</a>.
 
 #### Sample URL with path
 ```
